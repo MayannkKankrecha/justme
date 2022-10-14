@@ -44,7 +44,7 @@ class _OnbordingState extends State<Onbording> {
               children: [
                 GestureDetector(
                   onTap: () {
-                    _controller.jumpTo(2);
+                    _controller.jumpToPage(2);
                   },
                   child: Text("Skip"),
                 ),
@@ -58,7 +58,7 @@ class _OnbordingState extends State<Onbording> {
                         onTap: () {
                           Navigator.push(context, MaterialPageRoute(builder: (context) => HomePage()));
                         },
-                        child: Text("Get Started"),
+                        child: Text("lats Go"),
                       )
                     : GestureDetector(
                         onTap: () {

@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 class intro1 extends StatefulWidget {
   const intro1({Key? key}) : super(key: key);
@@ -13,7 +15,7 @@ class _intro1State extends State<intro1> {
       body: Container(
         color: Colors.red,
         child: Center(
-          child: Text("Screen 1"),
+          child: Text("Platform: ${Platform.operatingSystem}"),
         ),
       ),
     );

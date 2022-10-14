@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'package:justme/intropage/intro3.dart';
 class intro2 extends StatefulWidget {
@@ -14,7 +16,7 @@ class _intro2State extends State<intro2> {
       body: Container(
         color: Colors.blue,
         child: Center(
-          child: Text("Screen 2"),
+          child: Text("Platform: ${Platform.operatingSystemVersion}"),
         ),
         )
       );

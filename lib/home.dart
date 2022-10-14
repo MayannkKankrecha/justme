@@ -15,14 +15,14 @@ class _HomePageState extends State<HomePage> {
          padding: const EdgeInsets.only(top: 50,left: 20,right: 20),
          child: Column(
            children: [
-             TextField(
+              TextField(
                decoration: InputDecoration(
                  hintText: "Email"
                ),
              ),
              TextField(
                decoration: InputDecoration(
-                   hintText: "Password"
+                   hintText: "Password",
                ),
              ),
              TextField(
